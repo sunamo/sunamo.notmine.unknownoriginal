@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+	<metadata>
+		<version>1.0.3</version>
+		<releaseNotes>Updated nuspec</releaseNotes>
+
+		<tags>bitlocker windows</tags>
+		<description>Forked from https://www.nuget.org/packages/BitLockerManager, just for .NET Core</description>
+
+		<id>SunamoBitLockerManager</id>
+		<title>SunamoBitLockerManager</title>
+		<authors>www.sunamo.cz</authors>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<license type="expression">MIT</license>
+		<icon>_.png</icon>
+		<projectUrl>https://github.com/sunamo/sunamo.notmine/tree/master/SunamoBitlockerManager</projectUrl>
+		<repository type="git" url="https://github.com/sunamo/sunamo.notmine/tree/master/SunamoBitlockerManager" />
+		<readme>_.md</readme>
+		<copyright>sunamo</copyright>
+		<dependencies>
+			<group targetFramework="net7.0-windows" />
+		</dependencies>
+
+	</metadata>
+	<files>
+		<file src="_.png" />
+		<file src="_.md" />
+	</files>
+</package>

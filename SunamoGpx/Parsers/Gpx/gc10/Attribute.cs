@@ -1,0 +1,13 @@
+namespace csGeoTools.Parsers.gpx.gc10
+{
+    [XmlTypeAttribute(Namespace="http://www.groundspeak.com/cache/1/0")]
+    public class Attribute
+    {
+        [XmlAttribute("id")]
+        public string Id { get; set; }
+        [XmlAttribute("inc")]
+        public sbyte Inc { get; set; }
+        [XmlTextAttribute()]
+        public string Value { get; set; }
+    }
+}
