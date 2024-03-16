@@ -9,7 +9,7 @@
     <PackageProjectUrl>https://github.com/denis-ivanov/Jsbeautifier</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/denis-ivanov/Jsbeautifier/blob/master/LICENSE</PackageLicenseUrl>
     <PackageTags>JavaScript; Beautifier</PackageTags>
-    <TargetFrameworks>net48</TargetFrameworks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>

@@ -17,7 +17,7 @@ namespace CommandLine.Core
                 //{
                 //    Debug.WriteLine(item.LongName);
                 //}
-                DictionaryHelperSE.AddOrPlus(longNames, item.LongName, 1);
+                DictionaryHelper.AddOrPlus(longNames, item.LongName, 1);
             }
 
             var s2 = longNames.Where(d => d.Value > 1);

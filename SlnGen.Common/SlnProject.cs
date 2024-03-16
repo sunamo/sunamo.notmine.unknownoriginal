@@ -77,7 +77,7 @@ static Type type = typeof(SlnProject);
             }
             string name = project.GetPropertyValueOrDefault(SlnConstants.AssemblyName, Path.GetFileNameWithoutExtension(project.FullPath));
             bool isUsingMicrosoftNetSdk = project.GetPropertyValue(SlnConstants.UsingMicrosoftNETSdk).Equals("true", StringComparison.OrdinalIgnoreCase);
-            string extension = Path.GetExtension(project.FullPath);
+            string extension = FS.GetExtension(project.FullPath);
             Guid projectTypeGuid = GetKnownProjectTypeGuid(extension, isUsingMicrosoftNetSdk, customProjectTypeGuids);
             IEnumerable<string> configurations = project.GetPossiblePropertyValuesOrDefault("Configuration", "Debug");
             IEnumerable<string> platforms = GetPlatforms(project);
@@ -87,7 +87,7 @@ static Type type = typeof(SlnProject);
                 ThrowEx.Custom($"property ProjectGuid has an invalid format in {project.FullPath}");
             }
             string isDeployableStr = project.GetPropertyValue("SlnGenIsDeployable");
-            bool isDeployable = isDeployableStr.Equals("true", StringComparison.OrdinalIgnoreCase) || (string.IsNullOrWhiteSpace(isDeployableStr) && string.Equals(Path.GetExtension(project.FullPath), ".sfproj", StringComparison.OrdinalIgnoreCase));
+            bool isDeployable = isDeployableStr.Equals("true", StringComparison.OrdinalIgnoreCase) || (string.IsNullOrWhiteSpace(isDeployableStr) && string.Equals(FS.GetExtension(project.FullPath), ".sfproj", StringComparison.OrdinalIgnoreCase));
             return new SlnProject(project.FullPath, name, projectGuid, projectTypeGuid, configurations, platforms, isMainProject, isDeployable);
         }
         public static Dictionary<string, Guid> GetCustomProjectTypeGuids(IEnumerable<ITaskItem> items)

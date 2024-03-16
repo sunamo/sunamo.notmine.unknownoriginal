@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DefineConstants>TRACE;SKIP_FSHARP;CSX_REM_CRYPTORAND;ASYNC</DefineConstants>
@@ -17,8 +17,8 @@
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0"></PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\sunamoWithoutDep\cl\cl.csproj" />
-    <ProjectReference Include="..\..\sunamoWithoutDep\SunamoExceptions\SunamoExceptions.csproj" />
-    <ProjectReference Include="..\..\sunamoWithoutDep\SunamoShared\SunamoShared.csproj" />
+    <ProjectReference Include="..\..\sunamoWithoutLocalDep\cl\cl.csproj" />
+    <PackageReference Include="SunamoExceptions" Version="*" />
+    <PackageReference Include="SunamoShared" Version="*" />
   </ItemGroup>
 </Project>

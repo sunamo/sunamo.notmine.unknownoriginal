@@ -1858,7 +1858,7 @@ namespace BitLockerManager
                             throw new InvalidOperationException(
                                     "The VolumeKeyProtectorID parameter is specified but does not refer to a valid KeyProtectorType.")
                                 .SetCode(0x80070057);
-                        case 0x80310008: // FVE_E_NOT_ACTIVATED 
+                        case 0x80310008: // FVE_E_NOT_ACTIVATED
                             throw new InvalidOperationException(
                                     "BitLocker is not enabled on the volume.Add a key protector to enable BitLocker.")
                                 .SetCode(0x80310008);
@@ -3181,7 +3181,7 @@ namespace BitLockerManager
         /// <param name="path">
         ///     A string that contains the volume or folder location where the external key associated with the specified key
         ///     protector is to be saved.
-        ///     This path does not include the name of the file, which is internal and may change from version to version. Use
+        ///     This path does not include the name of the file, which is public and may change from version to version. Use
         ///     GetExternalKeyFileName to get the file name.
         /// </param>
         /// <remarks>

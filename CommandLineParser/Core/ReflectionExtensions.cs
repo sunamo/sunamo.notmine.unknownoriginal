@@ -115,13 +115,13 @@ namespace CommandLine.Core
             var e = Expression.Lambda<Func<object>>(
                 Expression.Convert(
                     Expression.Default(type),
-                    typeof(object)));
+                    typeof));
             return e.Compile()();
         }
 
         public static bool IsMutable(this Type type)
         {
-            if(type == typeof(object))
+            if(type == typeof)
                 return true;
 
             var props = type.GetTypeInfo().GetProperties(BindingFlags.Public | BindingFlags.Instance).Any(p => p.CanWrite);

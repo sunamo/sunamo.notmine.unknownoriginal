@@ -1,6 +1,6 @@
 namespace Metaproject.PackageIndex.Functions.ParseCsprojFile.Enums
 {
-    internal enum ReferenceType
+    public enum ReferenceType
     {
         PackageReference,
         DotNetCliToolReference

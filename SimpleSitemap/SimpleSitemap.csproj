@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <PackageId>SimpleSitemap</PackageId>
     <Authors>Justin Adler</Authors>
     <Company>World Domination Technologies Pty. Ltd.</Company>

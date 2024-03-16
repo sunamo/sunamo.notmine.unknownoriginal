@@ -4,7 +4,7 @@ using System.IO;
 
 namespace AsyncIO.FileSystem
 {
-    internal static class PathValidator
+    public static class PathValidator
     {
         /// <summary>
         /// Ensures the correct file system path.
@@ -13,7 +13,7 @@ namespace AsyncIO.FileSystem
         /// <exception cref="ArgumentNullException"><paramref name="path"/> is <c>null</c></exception>
         /// <exception cref="ArgumentException"><paramref name="path"/> is a zero-length string, contains only white space, or contains invalid characters as defined in <see cref="Path.GetInvalidPathChars"/></exception>
         /// <remarks>Throws an exception if <paramref name="path"/> is not a correct file system path, otherwise no.</remarks>
-        internal static void EnsureCorrectFileSystemPath(string path)
+        public static void EnsureCorrectFileSystemPath(string path)
         {
             if (path == null)
                 throw new ArgumentNullException($"{nameof(path)} is null.", nameof(path));
