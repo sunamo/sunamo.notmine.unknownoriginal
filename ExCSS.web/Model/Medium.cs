@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public sealed class Medium : StylesheetNode
     {
 

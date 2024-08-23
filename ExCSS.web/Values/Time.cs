@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public struct Time : IEquatable<Time>, IComparable<Time>, IFormattable
     {
         public static readonly Time Zero = new Time(0f, Unit.Ms);

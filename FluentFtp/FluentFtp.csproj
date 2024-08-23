@@ -25,9 +25,9 @@
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0"></PackageReference>
   </ItemGroup>-->
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>$(DefineConstants);CORE;ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);CORE;ASYNC;FluentFtp;FluentFtp.csproj</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DefineConstants>$(DefineConstants);CORE;ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);CORE;ASYNC;FluentFtp;FluentFtp.csproj</DefineConstants>
   </PropertyGroup>
 </Project>

@@ -1,5 +1,5 @@
 namespace FluentFTP
-{
+
     public partial class FtpClient : IDisposable
     {
         /// <summary>

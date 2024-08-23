@@ -1,10 +1,5 @@
-// Copyright (c) Jeff Kluge. All rights reserved.
-//
-// Licensed under the MIT license.
-
-
 namespace SlnGen.Common
-{
+
     public static class SlnGenUtility
     {
         public static readonly char[] EqualsSign = { '=' };
@@ -152,7 +147,7 @@ namespace SlnGen.Common
                 return Enumerable.Empty<string>();
             }
 
-            return items.Split(Semicolon, StringSplitOptions.RemoveEmptyEntries)
+            return itemsSH.Split(Semicolon, StringSplitOptions.RemoveEmptyEntries)
                 .Where(i => !string.IsNullOrWhiteSpace(i))
                 .Select(i => i.Trim());
         }
@@ -165,7 +160,7 @@ namespace SlnGen.Common
             }
 
             return ParseList(properties)
-                .Select(i => i.Split(EqualsSign, 2, StringSplitOptions.RemoveEmptyEntries)) // Split by '='
+                .Select(i => iSH.Split(EqualsSign, 2, StringSplitOptions.RemoveEmptyEntries)) // Split by '='
                 .Where(i => i.Length == 2 && !string.IsNullOrWhiteSpace(i[0]) && !string.IsNullOrWhiteSpace(i[1]))
                 .Select(i => new KeyValuePair<string, string>(i.First().Trim(), i.Last().Trim()));
         }

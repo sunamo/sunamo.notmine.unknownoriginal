@@ -1,9 +1,5 @@
 namespace FluentFTP.Servers.Handlers
-{
 
-    /// <summary>
-    /// Server-specific handling for CrushFTP servers
-    /// </summary>
     public class CrushFtpServer : FtpBaseServer
     {
 

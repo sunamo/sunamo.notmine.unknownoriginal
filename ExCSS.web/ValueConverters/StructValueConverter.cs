@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public sealed class StructValueConverter<T> : IValueConverter
         where T : struct, IFormattable
     {

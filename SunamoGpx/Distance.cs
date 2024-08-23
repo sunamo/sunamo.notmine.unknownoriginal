@@ -1,5 +1,5 @@
 namespace csGeoTools
-{
+
     public abstract class Distance
     {
         protected static IDictionary<MetricUnit, Double> metricFactors = new Dictionary<MetricUnit, Double>()

@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public static class TextEncoding
     {
         public static readonly Encoding Utf8 = new UTF8Encoding(false);

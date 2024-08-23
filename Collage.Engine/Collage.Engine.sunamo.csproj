@@ -7,7 +7,7 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DefineConstants>DEBUG2;DEBUG;TRACE;ASYNC</DefineConstants>
+    <DefineConstants>DEBUG2;DEBUG;TRACE;ASYNC;Collage.Engine.sunamo;Collage.Engine.sunamo.csproj</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
@@ -16,9 +16,9 @@
     <PackageReference Include="SunamoExceptions" Version="*" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;Collage.Engine.sunamo;Collage.Engine.sunamo.csproj</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;Collage.Engine.sunamo;Collage.Engine.sunamo.csproj</DefineConstants>
   </PropertyGroup>
 </Project>

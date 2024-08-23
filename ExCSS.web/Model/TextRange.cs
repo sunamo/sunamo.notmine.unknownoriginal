@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public struct TextRange : IEquatable<TextRange>, IComparable<TextRange>
     {
         public TextRange(TextPosition start, TextPosition end)

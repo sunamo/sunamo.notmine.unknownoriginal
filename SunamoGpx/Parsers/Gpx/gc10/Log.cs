@@ -1,6 +1,5 @@
 namespace csGeoTools.Parsers.gpx.gc10
-{
-    [XmlTypeAttribute(Namespace = "http://www.groundspeak.com/cache/1/0")]
+
     public class Log
     {
         [XmlElement("date")]

@@ -1,8 +1,5 @@
-#if !CORE
-
-#endif
-
 namespace FluentFTP {
+
 	public static class FtpReflection {
 #if !CORE
 		public static object GetField(this object obj, string fieldName) {

@@ -1,9 +1,5 @@
 namespace FluentFTP.Servers.Handlers
-{
 
-    /// <summary>
-    /// Server-specific handling for ServU FTP servers
-    /// </summary>
     public class ServUServer : FtpBaseServer
     {
 

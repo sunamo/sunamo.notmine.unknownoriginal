@@ -1,6 +1,5 @@
 namespace FluentFTP.Proxy
-{
-    /// <summary> A FTP client with a HTTP 1.1 proxy implementation. </summary>
+
     public class FtpClientHttp11Proxy : FtpClientProxy
     {
         /// <summary> A FTP client with a HTTP 1.1 proxy implementation </summary>
@@ -164,7 +163,7 @@ namespace FluentFTP.Proxy
                 {
                     LogLine(FtpTraceLevel.Info, buf);
 
-                    if (Strings.IsNullOrWhiteSpace(buf))
+                    if (StringsSH.IsNullOrWhiteSpace(buf))
                     {
                         break;
                     }
@@ -212,7 +211,7 @@ namespace FluentFTP.Proxy
             {
                 LogLine(FtpTraceLevel.Info, buf);
 
-                if (Strings.IsNullOrWhiteSpace(buf))
+                if (StringsSH.IsNullOrWhiteSpace(buf))
                 {
                     break;
                 }

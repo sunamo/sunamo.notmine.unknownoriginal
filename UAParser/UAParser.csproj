@@ -19,42 +19,45 @@
     <PackageDescription>A .net wrapper for the ua-parser library</PackageDescription>
     <AssemblyVersion>3.1.0.0</AssemblyVersion>
     <FileVersion>3.1.0.0</FileVersion>
-    <Company></Company>
+    <Company>
+    </Company>
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetFramework)'=='netstandard1.0'">
-    <DefineConstants>INTROSPECTION_EXTENSIONS;REGEX_MATCHTIMEOUT;ASYNC</DefineConstants>
+    <DefineConstants>INTROSPECTION_EXTENSIONS;REGEX_MATCHTIMEOUT;ASYNC;UAParser;UAParser.csproj</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetFramework)'=='netstandard1.3'">
-    <DefineConstants>REGEX_COMPILATION;INTROSPECTION_EXTENSIONS;REGEX_MATCHTIMEOUT;ASYNC</DefineConstants>
+    <DefineConstants>REGEX_COMPILATION;INTROSPECTION_EXTENSIONS;REGEX_MATCHTIMEOUT;ASYNC;UAParser;UAParser.csproj</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetFramework)'=='netstandard1.6'">
-    <DefineConstants>REGEX_COMPILATION;INTROSPECTION_EXTENSIONS;REGEX_MATCHTIMEOUT;ASYNC</DefineConstants>
+    <DefineConstants>REGEX_COMPILATION;INTROSPECTION_EXTENSIONS;REGEX_MATCHTIMEOUT;ASYNC;UAParser;UAParser.csproj</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetFramework)'=='net20'">
-    <DefineConstants>REGEX_COMPILATION;ASYNC</DefineConstants>
+    <DefineConstants>REGEX_COMPILATION;ASYNC;UAParser;UAParser.csproj</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetFramework)'=='netcoreapp2.0'">
-    <DefineConstants>REGEX_COMPILATION;INTROSPECTION_EXTENSIONS;REGEX_MATCHTIMEOUT;ASYNC</DefineConstants>
+    <DefineConstants>REGEX_COMPILATION;INTROSPECTION_EXTENSIONS;REGEX_MATCHTIMEOUT;ASYNC;UAParser;UAParser.csproj</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetFramework)'=='net35'">
-    <DefineConstants>REGEX_COMPILATION;ASYNC</DefineConstants>
+    <DefineConstants>REGEX_COMPILATION;ASYNC;UAParser;UAParser.csproj</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetFramework)'=='net40'">
-    <DefineConstants>REGEX_COMPILATION;ASYNC</DefineConstants>
+    <DefineConstants>REGEX_COMPILATION;ASYNC;UAParser;UAParser.csproj</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetFramework)'=='net45'">
-    <DefineConstants>REGEX_COMPILATION;REGEX_MATCHTIMEOUT;ASYNC</DefineConstants>
+    <DefineConstants>REGEX_COMPILATION;REGEX_MATCHTIMEOUT;ASYNC;UAParser;UAParser.csproj</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <WarningsAsErrors></WarningsAsErrors>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
     <DocumentationFile>bin\Debug\$(TargetFramework)\UAParser.xml</DocumentationFile>
     <NoWarn>1701;1702;1591</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <WarningsAsErrors></WarningsAsErrors>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
     <DocumentationFile>bin\Release\$(TargetFramework)\UAParser.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net20'">
@@ -63,16 +66,19 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <None Remove="regexes.yaml"></None>
-    <None Remove="y\regexes.yaml"></None>
+    <None Remove="regexes.yaml">
+    </None>
+    <None Remove="y\regexes.yaml">
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="y\regexes.yaml"></EmbeddedResource>
+    <EmbeddedResource Include="y\regexes.yaml">
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;UAParser;UAParser.csproj</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;UAParser;UAParser.csproj</DefineConstants>
   </PropertyGroup>
 </Project>

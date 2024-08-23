@@ -1,7 +1,5 @@
-#if !NET40 && !SL50
-
 namespace ExCSS
-{
+
     public static class PortableExtensions
     {
         public static string ConvertFromUtf32(this int utf32)

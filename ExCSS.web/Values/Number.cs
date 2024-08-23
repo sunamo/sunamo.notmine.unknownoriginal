@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public struct Number : IEquatable<Number>, IComparable<Number>, IFormattable
     {
         /// <summary>

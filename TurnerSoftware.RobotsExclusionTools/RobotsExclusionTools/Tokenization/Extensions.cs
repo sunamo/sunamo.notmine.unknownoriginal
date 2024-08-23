@@ -1,5 +1,5 @@
 namespace TurnerSoftware.RobotsExclusionTools.Tokenization
-{
+
 	public static class Extensions
 	{
 		public static bool MoveTo(this IEnumerator<Token> tokenEnumerator, TokenType tokenType)

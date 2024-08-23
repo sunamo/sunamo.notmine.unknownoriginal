@@ -1,7 +1,3 @@
-//#define CSX_ENUM_INTERNAL // Uncomment or define at build time to set accessibility to internal.
-//#define CSX_REM_MAYBE_FUNC // Uncomment or define at build time to remove dependency to Maybe.cs.
-//#define CSX_REM_CRYPTORAND // Uncomment or define at build time to remove dependency to CryptoRandom.cs.
-
 using IdentityModel;
 using System;
 using System.Collections;
@@ -13,10 +9,7 @@ using System.Text;
 using LinqEnumerable = System.Linq.Enumerable;
 
 namespace CSharpx
-{
-#if !CSX_ENUM_INTERNAL
-    public
-#endif
+
     static class EnumerableExtensions
     {
 #if !CSX_REM_MAYBE_FUNC
@@ -454,7 +447,7 @@ namespace CSharpx
         public static IEnumerable<string> FlattenOnce(this IEnumerable<string> source)
         {
             foreach (var element in source) {
-                var parts = element.Split();
+                var parts = elementSH.Split();
                 foreach (var part in parts) {
                     yield return part;
                 }

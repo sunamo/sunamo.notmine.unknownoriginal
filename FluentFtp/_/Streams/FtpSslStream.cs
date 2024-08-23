@@ -1,16 +1,5 @@
-#if !CORE
-
-#endif
-
 namespace FluentFTP {
-#if !CORE
-	/// <summary>
-	/// .NET SslStream doesn't close TLS connection properly.
-	/// It does not send the close_notify alert before closing the connection.
-	/// FtpSslStream uses unsafe code to do that.
-	/// This is required when we want to downgrade the connection to plaintext using CCC command.
-	/// Thanks to Neco @ https://stackoverflow.com/questions/237807/net-sslstream-doesnt-close-tls-connection-properly/22626756#22626756
-	/// </summary>
+
 	public class FtpSslStream : SslStream {
 		private bool sentCloseNotify = false;
 

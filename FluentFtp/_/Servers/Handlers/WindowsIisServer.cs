@@ -1,9 +1,5 @@
 namespace FluentFTP.Servers.Handlers
-{
 
-    /// <summary>
-    /// Server-specific handling for WindowsServer/IIS FTP servers
-    /// </summary>
     public class WindowsIisServer : FtpBaseServer
     {
 

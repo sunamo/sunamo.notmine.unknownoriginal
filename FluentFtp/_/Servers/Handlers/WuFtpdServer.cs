@@ -1,9 +1,5 @@
 namespace FluentFTP.Servers.Handlers
-{
 
-    /// <summary>
-    /// Server-specific handling for WuFTPd FTP servers
-    /// </summary>
     public class WuFtpdServer : FtpBaseServer
     {
 

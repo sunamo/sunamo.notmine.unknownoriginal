@@ -4,7 +4,7 @@ using BitLockerManager2 = BitLockerManager.BitLockerManager;
 
 
 /// <summary>
-/// dává smysl jen tady, ne ve sunamoWithoutLocalDep
+/// dává smysl jen tady, ne ve PlatformIndependentNuGetPackages
 /// musel bych vyextrahovat interface který se ovšem velmi těžko dělá protože to není v nugetu ale vše je tady
 /// </summary>
 public class BitLockerHelper

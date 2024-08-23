@@ -1,13 +1,5 @@
-#if !CORE
-#endif
-#if (CORE || NETFX)
-#endif
-#if (CORE || NET45)
-
-#endif
-
 namespace FluentFTP
-{
+
     public partial class FtpClient : IDisposable
     {
         #region Download Multiple Files
@@ -337,7 +329,7 @@ namespace FluentFTP
             {
                 // create the folders
                 var dirPath = Path.GetDirectoryName(localPath);
-                if (!Strings.IsNullOrWhiteSpace(dirPath) && !Directory.Exists(dirPath))
+                if (!StringsSH.IsNullOrWhiteSpace(dirPath) && !Directory.Exists(dirPath))
                 {
                     Directory.CreateDirectory(dirPath);
                 }

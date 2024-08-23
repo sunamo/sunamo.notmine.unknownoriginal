@@ -1,5 +1,5 @@
 namespace TurnerSoftware.SitemapTools
-{
+
 	public class SitemapQuery
 	{
 		static Type type = typeof(SitemapQuery);

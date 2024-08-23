@@ -1,12 +1,4 @@
 namespace EverythingNet.Query
-{
-  using System.Collections;
-  using System.Collections.Generic;
-  using System.Linq;
-
-  using EverythingNet.Interfaces;
-
-  using IQueryable = Interfaces.IQueryable;
 
   public abstract class Queryable : IQueryable, IQueryGenerator
   {

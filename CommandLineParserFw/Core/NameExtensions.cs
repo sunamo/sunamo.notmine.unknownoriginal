@@ -1,9 +1,7 @@
-// Copyright 2005-2015 Giacomo Stelluti Scala & Contributors. All rights reserved. See License.md in the project root for license information.
-
 using System;
 
 namespace CommandLine.Core
-{
+
     static class NameExtensions
     {
         public static bool MatchName(this string value, string shortName, string longName, StringComparer comparer)

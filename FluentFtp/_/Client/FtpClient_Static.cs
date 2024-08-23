@@ -1,4 +1,5 @@
 namespace FluentFTP {
+
 	public partial class FtpClient : IDisposable {
 		/// <summary>
 		/// Connects to the specified URI. If the path specified by the URI ends with a

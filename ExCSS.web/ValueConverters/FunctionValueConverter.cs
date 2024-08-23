@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public sealed class FunctionValueConverter : IValueConverter
     {
         private readonly IValueConverter _arguments;

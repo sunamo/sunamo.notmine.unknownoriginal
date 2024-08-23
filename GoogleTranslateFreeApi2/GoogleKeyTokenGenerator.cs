@@ -1,8 +1,5 @@
 namespace GoogleTranslateFreeApi
-{
-	/// <summary>
-	/// GoogleTranslate token generator
-	/// </summary>
+
 	public class GoogleKeyTokenGenerator
 	{
 static Type type = typeof(GoogleKeyTokenGenerator);
@@ -123,7 +120,7 @@ throw new GoogleTranslateIPBannedException(
 			long tkk;
 			try
 			{
-				var tkkText = result.GetTextBetween(@"tkk:'", "',");
+				var tkkText = resultSH.GetTextBetween(@"tkk:'", "',");
 				if (tkkText == null)
 throw new ExternalKeyParseException("Unknown TKK position");
 				var splitted = tkkText.Split('.');

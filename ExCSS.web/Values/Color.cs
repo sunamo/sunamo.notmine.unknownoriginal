@@ -1,6 +1,5 @@
 namespace ExCSS
-{
-    [StructLayout(LayoutKind.Explicit, Pack = 1, CharSet = CharSet.Unicode)]
+
     public struct Color : IEquatable<Color>, IComparable<Color>, IFormattable
     {
         [FieldOffset(0)]

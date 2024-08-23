@@ -1,5 +1,5 @@
 namespace EverythingNet.Extensions
-{
+
   public static class DateSearch
   {
     public enum Dates

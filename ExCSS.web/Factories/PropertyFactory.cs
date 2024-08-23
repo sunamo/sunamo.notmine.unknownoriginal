@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public sealed class PropertyFactory 
     {
         private static readonly Lazy<PropertyFactory> Lazy =

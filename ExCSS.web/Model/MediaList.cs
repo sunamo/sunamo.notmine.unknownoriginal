@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public sealed class MediaList : StylesheetNode
     {
         private readonly StylesheetParser _parser;

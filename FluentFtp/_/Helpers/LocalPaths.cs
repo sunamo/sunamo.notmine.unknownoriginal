@@ -1,12 +1,5 @@
-#if (CORE || NETFX)
-#endif
-#if NET45
-#endif
-
 namespace FluentFTP.Helpers {
-	/// <summary>
-	/// Extension methods related to FTP tasks
-	/// </summary>
+
 	public static class LocalPaths {
 
 		/// <summary>

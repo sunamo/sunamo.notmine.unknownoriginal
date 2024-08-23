@@ -1,8 +1,4 @@
 namespace ExCSS
-{
-#if !NET40
-    using System.Runtime.CompilerServices;
-#endif
 
     public static class CharExtensions
     {

@@ -1,11 +1,5 @@
-// Copyright 2005-2015 Giacomo Stelluti Scala & Contributors. All rights reserved. See License.md in the project root for license information.
-
-
 namespace CommandLine.Text
-{
-    /// <summary>
-    /// Provides base properties for creating an attribute, used to define multiple lines of text.
-    /// </summary>
+
     public abstract class MultilineTextAttribute : Attribute
     {
         private readonly string line1;

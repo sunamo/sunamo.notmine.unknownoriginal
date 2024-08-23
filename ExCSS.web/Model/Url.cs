@@ -1,6 +1,5 @@
 namespace ExCSS
-{
-    /// <summary>
+
     ///     Url class according to RFC3986. 
     /// </summary>
     public sealed class Url : IEquatable<Url>
@@ -669,7 +668,7 @@ namespace ExCSS
 
             if (!onlyPath && !string.IsNullOrEmpty(_path) && (index - init == 0))
             {
-                var split = _path.Split(Symbols.Solidus);
+                var split = _pathSH.Split(Symbols.Solidus);
 
                 if (split.Length > 1)
                 {

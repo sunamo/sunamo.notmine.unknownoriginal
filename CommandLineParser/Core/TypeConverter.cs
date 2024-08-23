@@ -1,8 +1,5 @@
-// Copyright 2005-2015 Giacomo Stelluti Scala & Contributors. All rights reserved. See License.md in the project root for license information.
-
-
 namespace CommandLine.Core
-{
+
     static class TypeConverter
     {
         public static Maybe<object> ChangeType(IEnumerable<string> values, Type conversionType, bool scalar, CultureInfo conversionCulture, bool ignoreValueCase)

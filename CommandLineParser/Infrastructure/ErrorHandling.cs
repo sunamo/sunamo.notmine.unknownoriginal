@@ -1,18 +1,5 @@
-//Use project level define(s) when referencing with Paket.
-//#define ERRH_INTERNAL // Uncomment this to set visibility to internal.
-//#define ERRH_DISABLE_INLINE_METHODS // Uncomment this to enable method inlining when compiling for >= NET 4.5.
-//#define ERRH_BUILTIN_TYPES // Uncomment this to use built-in Unit type, instead of extenral identical CSharpx.Unit.
-
-#if !ERRH_BUILTIN_TYPES
-#endif
-
 namespace RailwaySharp.ErrorHandling
-{
-    #region Unit Type
-#if ERRH_BUILTIN_TYPES
-#if !ERRH_INTERNAL
-    public
-#endif
+
     struct Unit : IEquatable<Unit>
     {
         private static readonly Unit @default = new Unit();

@@ -1,8 +1,5 @@
 namespace ExifLib
-{
-    /// <summary>
-    /// As per: http://www.media.mit.edu/pia/Research/deepview/exif.html
-    /// </summary>
+
     public enum ExifTagFormat
     {
         BYTE       = 1,

@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public struct Angle : IEquatable<Angle>, IComparable<Angle>, IFormattable
     {
         public static readonly Angle Zero = new Angle(0f, Unit.Rad);

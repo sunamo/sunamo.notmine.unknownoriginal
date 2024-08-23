@@ -1,5 +1,5 @@
 namespace csGeoTools
-{
+
     public static class FNVHasher
     {
 static Type type = typeof(FNVHasher);

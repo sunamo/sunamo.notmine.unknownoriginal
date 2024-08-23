@@ -1,9 +1,5 @@
 namespace FluentFTP.Servers.Handlers
-{
 
-    /// <summary>
-    /// Server-specific handling for OpenVMS FTP servers
-    /// </summary>
     public class OpenVmsServer : FtpBaseServer
     {
 

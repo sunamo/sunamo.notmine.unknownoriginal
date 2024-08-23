@@ -1,5 +1,5 @@
 namespace TurnerSoftware.RobotsExclusionTools.Helpers
-{
+
 	public class PathComparisonUtility
 	{
 		public bool IsAllowed(SiteAccessEntry accessEntry, Uri requestUri)
@@ -35,7 +35,7 @@ namespace TurnerSoftware.RobotsExclusionTools.Helpers
 
 		public bool PathMatch(string sourceRecord, string uriPath, StringComparison comparison)
 		{
-			var sourcePieces = sourceRecord.Split(new[] { '*' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
+			var sourcePieces = sourceRecordSH.Split(new[] { '*' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
 			var lastPiece = sourcePieces.LastOrDefault();
 			var mustMatchToEnd = false;
 			var mustMatchToStart = true;

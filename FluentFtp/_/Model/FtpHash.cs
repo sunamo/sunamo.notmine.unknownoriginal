@@ -1,10 +1,5 @@
 namespace FluentFTP {
-	/// <summary>
-	/// Represents a computed hash of an object
-	/// on the FTP server. See the following link
-	/// for more information:
-	/// http://tools.ietf.org/html/draft-bryan-ftpext-hash-02
-	/// </summary>
+
 	public class FtpHash {
 		private FtpHashAlgorithm m_algorithm = FtpHashAlgorithm.NONE;
 

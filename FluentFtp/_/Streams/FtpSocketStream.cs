@@ -1,11 +1,5 @@
-#if CORE || NET45
-#endif
-
 namespace FluentFTP
-{
 
-
-    /// <summary>
     /// Stream class used for talking. Used by FtpClient, extended by FtpDataStream
     /// </summary>
     public class FtpSocketStream : Stream, IDisposable

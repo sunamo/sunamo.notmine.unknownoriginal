@@ -1,7 +1,5 @@
 namespace FluentFTP.Helpers {
-	/// <summary>
-	/// Extension methods related to FTP tasks
-	/// </summary>
+
 	public static class Strings {
 
 
@@ -194,7 +192,7 @@ namespace FluentFTP.Helpers {
 		/// Split into fields by splitting on tokens
 		/// </summary>
 		public static string[] SplitString(this string str) {
-			var allTokens = new List<string>(str.Split(null));
+			var allTokens = new List<string>(strSH.Split(null));
 			for (var i = allTokens.Count - 1; i >= 0; i--) {
 				if (((string)allTokens[i]).Trim().Length == 0) {
 					allTokens.RemoveAt(i);

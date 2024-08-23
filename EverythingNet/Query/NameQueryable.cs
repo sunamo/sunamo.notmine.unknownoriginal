@@ -1,10 +1,4 @@
 namespace EverythingNet.Query
-{
-  using System;
-  using System.Collections.Generic;
-  using System.Linq;
-
-  using EverythingNet.Interfaces;
 
   public class NameQueryable : Queryable, INameQueryable
   {

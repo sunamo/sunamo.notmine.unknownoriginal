@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public sealed class TextSource : IDisposable
     {
         private const int BufferSize = 4096;

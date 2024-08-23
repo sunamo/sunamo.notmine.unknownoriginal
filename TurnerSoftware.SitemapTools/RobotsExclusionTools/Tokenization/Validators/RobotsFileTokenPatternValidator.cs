@@ -1,5 +1,5 @@
 namespace TurnerSoftware.RobotsExclusionTools.Tokenization.Validators
-{
+
 	public class RobotsFileTokenPatternValidator : TokenPatternValidatorBase
 	{
 		private static readonly Dictionary<TokenType, IEnumerable<TokenPattern>> TokenPatterns = new Dictionary<TokenType, IEnumerable<TokenPattern>>

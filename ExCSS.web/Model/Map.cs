@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public static class Map
     {
         public static readonly Dictionary<string, Whitespace> WhitespaceModes =

@@ -1,5 +1,5 @@
 namespace TurnerSoftware.RobotsExclusionTools
-{
+
 	public class RobotsPageDefinition
 	{
 		public IEnumerable<PageAccessEntry> PageAccessEntries { get; set; } = Enumerable.Empty<PageAccessEntry>();

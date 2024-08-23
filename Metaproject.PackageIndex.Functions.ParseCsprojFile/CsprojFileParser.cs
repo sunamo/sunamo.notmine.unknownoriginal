@@ -1,7 +1,7 @@
 using static System.String;
 
 namespace Metaproject.PackageIndex.Functions.ParseCsprojFile
-{
+
     public static class CsprojFileParser
     {
         public static PackageCsproj ParseCsproj(IEnumerable<string> lines, string path)
@@ -55,7 +55,7 @@ namespace Metaproject.PackageIndex.Functions.ParseCsprojFile
             else
             {
                 #region MyRegion
-                //var splitted = line.Split(tag);
+                //var splitted = lineSH.Split(tag);
                 //var ea = splitted.ElementAt(2);
                 //var ss = ea.Substring(1);
                 //var re = ss.Reverse();
@@ -66,16 +66,16 @@ namespace Metaproject.PackageIndex.Functions.ParseCsprojFile
                 //return r; 
                 #endregion
 
-                line = line.Trim().TrimStart(AllCharsSE.lt);
-                string end = tag.Replace(AllStringsSE.lt, "</");
+                line = line.Trim().TrimStart(AllChars.lt);
+                string end = tag.Replace(AllStrings.lt, "</");
                 string s = null;
                 if (line.Contains(end))
                 {
-                    s = SHSH.GetTextBetweenTwoChars(line, AllCharsSE.gt, AllCharsSE.lt);
+                    s = SH.GetTextBetweenTwoChars(line, AllChars.gt, AllChars.lt);
                 }
                 else
                 {
-                    var dx = line.IndexOf(AllCharsSE.gt);
+                    var dx = line.IndexOf(AllChars.gt);
                     s = line.Substring(dx + 1);
                 }
 

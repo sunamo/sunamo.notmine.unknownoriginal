@@ -1,9 +1,5 @@
-#define TRACE
-
 namespace FluentFTP.Helpers {
-	/// <summary>
-	/// Used for transaction logging and debug information.
-	/// </summary>
+
 	public static class FtpTrace {
 #if !CORE
 		private static volatile TraceSource m_traceSource = new TraceSource("FluentFTP") {

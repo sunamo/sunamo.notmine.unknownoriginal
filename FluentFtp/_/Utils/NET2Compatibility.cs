@@ -1,11 +1,5 @@
-#region Extension Methods for .NET 2
-
-#if NET20
-
-// you need this once (only), and it must be in this namespace
 namespace System.Runtime.CompilerServices {
-	[AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class
-	                                          | AttributeTargets.Method)]
+
 	public sealed class ExtensionAttribute : Attribute {
 	}
 }

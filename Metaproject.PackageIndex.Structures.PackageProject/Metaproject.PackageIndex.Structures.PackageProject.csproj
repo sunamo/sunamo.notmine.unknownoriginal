@@ -15,9 +15,9 @@
     <PackageReference Include="CDorst.DevOps.Primitives.VisualStudio.Projects.Helpers.DotNetCore" Version="7.0.0" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;Metaproject.PackageIndex.Structures.PackageProject;Metaproject.PackageIndex.Structures.PackageProject.csproj</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;Metaproject.PackageIndex.Structures.PackageProject;Metaproject.PackageIndex.Structures.PackageProject.csproj</DefineConstants>
   </PropertyGroup>
 </Project>

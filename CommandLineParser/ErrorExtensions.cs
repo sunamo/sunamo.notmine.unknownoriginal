@@ -1,8 +1,5 @@
-// Copyright 2005-2015 Giacomo Stelluti Scala & Contributors. All rights reserved. See License.md in the project root for license information.
-
-
 namespace CommandLine
-{
+
     static class ErrorExtensions
     {
         public static ParserResult<T> ToParserResult<T>(this List<Error> errors, T instance)

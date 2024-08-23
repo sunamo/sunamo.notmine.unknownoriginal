@@ -1,8 +1,5 @@
 namespace FluentFTP.Rules {
 
-	/// <summary>
-	/// Only accept files that have the given name, or exclude files of a given name.
-	/// </summary>
 	public class FtpFileNameRule : FtpRule {
 
 		/// <summary>

@@ -16,9 +16,9 @@
     <ProjectReference Include="..\Metaproject.PackageIndex.Structures.PackageProject\Metaproject.PackageIndex.Structures.PackageProject.csproj" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;Metaproject.PackageIndex.Functions.ParseCsprojFile;Metaproject.PackageIndex.Functions.ParseCsprojFile.csproj</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;Metaproject.PackageIndex.Functions.ParseCsprojFile;Metaproject.PackageIndex.Functions.ParseCsprojFile.csproj</DefineConstants>
   </PropertyGroup>
 </Project>

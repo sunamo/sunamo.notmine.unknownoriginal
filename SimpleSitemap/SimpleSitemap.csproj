@@ -21,11 +21,12 @@ Examples of this could be a list of your users, or products, or questions.</Desc
     <PackageLicenseUrl>https://github.com/PureKrome/SimpleSitemap/blob/master/LICENSE</PackageLicenseUrl>
     <SignAssembly>false</SignAssembly>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'"></PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>$(DefineConstants);ASYNC;SimpleSitemap;SimpleSitemap.csproj</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;SimpleSitemap;SimpleSitemap.csproj</DefineConstants>
   </PropertyGroup>
 </Project>

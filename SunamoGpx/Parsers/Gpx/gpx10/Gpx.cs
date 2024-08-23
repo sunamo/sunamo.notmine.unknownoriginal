@@ -1,7 +1,5 @@
 namespace csGeoTools.Parsers.gpx.gpx10
-{
-    [XmlTypeAttribute(Namespace = "http://www.topografix.com/GPX/1/0")]
-    [XmlRootAttribute(ElementName = "gpx", Namespace = "http://www.topografix.com/GPX/1/0")]
+
     public class Gpx
     {
         [XmlElement("name")]

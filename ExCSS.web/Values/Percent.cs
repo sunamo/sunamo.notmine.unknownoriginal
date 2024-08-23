@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public struct Percent : IEquatable<Percent>, IComparable<Percent>, IFormattable
     {
         /// <summary>

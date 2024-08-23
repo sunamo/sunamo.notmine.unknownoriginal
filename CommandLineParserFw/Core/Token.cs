@@ -1,9 +1,7 @@
-// Copyright 2005-2015 Giacomo Stelluti Scala & Contributors. All rights reserved. See License.md in the project root for license information.
-
 using System;
 
 namespace CommandLine.Core
-{
+
     enum TokenType { Name, Value }
 
     abstract class Token

@@ -1,12 +1,5 @@
-// Copyright 2005-2015 Giacomo Stelluti Scala & Contributors. All rights reserved. See License.md in the project root for license information.
-
-
 namespace CommandLine
-{
-    /// <summary>
-    /// Models a verb command specification.
-    /// </summary>
-    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct, AllowMultiple = false, Inherited = true)]
+
     //public sealed class VerbAttribute : Attribute
     public  class VerbAttribute : Attribute
     {

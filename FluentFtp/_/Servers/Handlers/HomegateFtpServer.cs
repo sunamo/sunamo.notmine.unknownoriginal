@@ -1,9 +1,5 @@
 namespace FluentFTP.Servers.Handlers
-{
 
-    /// <summary>
-    /// Server-specific handling for HomegateFTP servers
-    /// </summary>
     public class HomegateFtpServer : FtpBaseServer
     {
 

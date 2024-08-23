@@ -1,5 +1,5 @@
 namespace FluentFTP
-{
+
     public partial class FtpClient : IFtpClient, IDisposable
     {
         #region Delete Directory

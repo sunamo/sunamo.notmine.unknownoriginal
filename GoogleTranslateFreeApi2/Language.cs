@@ -1,6 +1,5 @@
 namespace GoogleTranslateFreeApi
-{
-	[DataContract]
+
 	public partial class Language
 	{
 		/// <summary>

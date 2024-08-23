@@ -1,4 +1,5 @@
 namespace FluentFTP.Helpers {
+
 	public static class Operators {
 
 

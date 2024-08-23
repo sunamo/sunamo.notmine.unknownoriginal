@@ -1,13 +1,5 @@
-// Copyright 2005-2015 Giacomo Stelluti Scala & Contributors. All rights reserved. See License.md in the project root for license information.
-
-
-
 namespace CommandLine.Text
-{
-    /// <summary>
-    /// Exposes standard delegates to provide a mean to customize part of help screen generation.
-    /// This type is consumed by <see cref="CommandLine.Text.HelpText"/>.
-    /// </summary>
+
     public abstract class SentenceBuilder
     {
         /// <summary>

@@ -1,7 +1,5 @@
 namespace FluentFTP {
-	/// <summary>
-	/// Class to report FTP file transfer progress during upload or download of files
-	/// </summary>
+
 	public class FtpProgress {
 		/// <summary>
 		/// A value between 0-100 indicating percentage complete, or -1 for indeterminate.

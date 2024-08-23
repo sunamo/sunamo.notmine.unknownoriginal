@@ -1,9 +1,5 @@
 namespace FluentFTP.Servers.Handlers
-{
 
-    /// <summary>
-    /// Server-specific handling for FTP2S3Gateway FTP servers
-    /// </summary>
     public class Ftp2S3GatewayServer : FtpBaseServer
     {
 

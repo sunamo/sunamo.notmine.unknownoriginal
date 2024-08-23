@@ -1,11 +1,5 @@
-// Copyright 2005-2015 Giacomo Stelluti Scala & Contributors. All rights reserved. See License.md in the project root for license information.
-
-
 namespace CommandLine.Text
-{
-    /// <summary>
-    /// Models a command line usage example.
-    /// </summary>
+
     public sealed class Example : IEquatable<Example>
     {
         private readonly string helpText;

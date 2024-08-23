@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public sealed class ConstraintValueConverter : IValueConverter
     {
         private readonly IValueConverter _converter;

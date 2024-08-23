@@ -1,10 +1,4 @@
 namespace EverythingNet.Core
-{
-  using System;
-  using System.IO;
-  using System.Text;
-
-  using EverythingNet.Interfaces;
 
   public class SearchResult : ISearchResult
   {

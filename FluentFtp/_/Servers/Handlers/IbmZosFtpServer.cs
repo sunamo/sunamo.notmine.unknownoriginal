@@ -1,9 +1,5 @@
 namespace FluentFTP.Servers.Handlers
-{
 
-    /// <summary>
-    /// Server-specific handling for IBMzOSFTP servers
-    /// </summary>
     public class IbmZosFtpServer : FtpBaseServer
     {
 

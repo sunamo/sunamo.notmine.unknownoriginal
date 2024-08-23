@@ -1,10 +1,8 @@
-// Copyright 2005-2015 Giacomo Stelluti Scala & Contributors. All rights reserved. See License.md in the project root for license information.
-
 using System;
 using System.Text;
 
 namespace CommandLine.Infrastructure
-{
+
     static class StringBuilderExtensions
     {
         public static StringBuilder AppendWhen(this StringBuilder builder, bool condition, params string[] values)
@@ -95,7 +93,7 @@ namespace CommandLine.Infrastructure
         public static StringBuilder TrimEndIfMatchWhen(this StringBuilder builder, bool condition, char c)
         {
             return condition
-                ? builder.TrimEndIfMatch(c)
+                ? builderSH.TrimEndIfMatch(c)
                 : builder;
         }
 

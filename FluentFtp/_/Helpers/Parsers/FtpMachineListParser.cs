@@ -1,7 +1,5 @@
-#if NET45
-
-#endif
 namespace FluentFTP.Helpers.Parsers {
+
 	public static class FtpMachineListParser {
 		/// <summary>
 		/// Parses MLSD/MLST format listings

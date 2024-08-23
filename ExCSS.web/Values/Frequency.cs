@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public struct Frequency : IEquatable<Frequency>, IComparable<Frequency>, IFormattable
     {
         public Frequency(float value, Unit unit)

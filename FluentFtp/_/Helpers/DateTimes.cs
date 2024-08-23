@@ -1,7 +1,5 @@
 namespace FluentFTP.Helpers {
-	/// <summary>
-	/// Extension methods related to FTP tasks
-	/// </summary>
+
 	public static class DateTimes {
 
 		/// <summary>

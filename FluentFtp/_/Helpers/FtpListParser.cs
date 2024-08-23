@@ -1,8 +1,5 @@
 namespace FluentFTP.Helpers {
-	/// <summary>
-	/// Parses a line from a file listing using the first successful parser, or the specified parser.
-	/// Returns an FtpListItem object representing the parsed line, or null if the line was unable to be parsed.
-	/// </summary>
+
 	public class FtpListParser {
 		#region Internal API
 

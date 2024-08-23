@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public sealed class StyleDeclaration : StylesheetNode, IProperties
     {
         readonly Rule _parent;

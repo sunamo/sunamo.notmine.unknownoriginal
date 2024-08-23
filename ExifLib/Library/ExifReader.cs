@@ -1,9 +1,5 @@
 namespace ExifLib
-{
-    /// <summary>
-    /// Based on http://www.media.mit.edu/pia/Research/deepview/exif.html
-    /// http://www.awaresystems.be/imaging/tiff/tifftags/privateifd/exif.html
-    /// </summary>
+
     public class ExifReader
     {
         public JpegInfo info { get; private set; }

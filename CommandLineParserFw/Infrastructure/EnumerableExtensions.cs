@@ -1,11 +1,9 @@
-// Copyright 2005-2015 Giacomo Stelluti Scala & Contributors. All rights reserved. See License.md in the project root for license information.
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace CommandLine.Infrastructure
-{
+
     static class EnumerableExtensions
     {
         public static int IndexOf<TSource>(this IEnumerable<TSource> source, Func<TSource, bool> predicate)

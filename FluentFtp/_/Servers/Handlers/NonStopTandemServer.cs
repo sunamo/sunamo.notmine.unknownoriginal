@@ -1,9 +1,5 @@
 namespace FluentFTP.Servers.Handlers
-{
 
-    /// <summary>
-    /// Server-specific handling for NonStop/Tandem FTP servers
-    /// </summary>
     public class NonStopTandemServer : FtpBaseServer
     {
 

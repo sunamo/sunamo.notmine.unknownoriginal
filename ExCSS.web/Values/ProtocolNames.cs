@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public static class ProtocolNames
     {
         public static readonly string Http = "http";

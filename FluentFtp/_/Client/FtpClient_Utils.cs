@@ -1,9 +1,7 @@
 using SysSslProtocols = System.Security.Authentication.SslProtocols;
 
-
-
 namespace FluentFTP
-{
+
     public partial class FtpClient : IDisposable
     {
 

@@ -1,9 +1,5 @@
 namespace TurnerSoftware.RobotsExclusionTools.Tokenization.TokenParsers
-{
-	/// <summary>
-	/// Based on the rules defined by Google's documentation for Robots Meta Tag
-	/// https://developers.google.com/search/reference/robots_meta_tag
-	/// </summary>
+
 	public class RobotsPageTokenParser : IRobotsPageTokenParser
 	{
 		private class PageAccessParseState

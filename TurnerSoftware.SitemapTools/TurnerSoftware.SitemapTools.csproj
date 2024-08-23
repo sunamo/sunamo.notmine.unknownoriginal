@@ -10,9 +10,9 @@
     <PackageReference Include="SunamoExceptions" Version="*" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;TurnerSoftware.SitemapTools;TurnerSoftware.SitemapTools.csproj</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;TurnerSoftware.SitemapTools;TurnerSoftware.SitemapTools.csproj</DefineConstants>
   </PropertyGroup>
 </Project>

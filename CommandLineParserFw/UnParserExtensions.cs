@@ -1,5 +1,3 @@
-// Copyright 2005-2015 Giacomo Stelluti Scala & Contributors. All rights reserved. See License.md in the project root for license information.
-
 using System;
 using System.Collections;
 using System.Linq;
@@ -9,10 +7,7 @@ using CommandLine.Infrastructure;
 using CSharpx;
 
 namespace CommandLine
-{
-    /// <summary>
-    /// Provides settings for when formatting command line from an options instance../>.
-    /// </summary>
+
     public class UnParserSettings
     {
         private bool preferShortName;
@@ -196,7 +191,7 @@ namespace CommandLine
                     var e = ((IEnumerable)value).GetEnumerator();
                     while (e.MoveNext())
                         builder.Append(format(e.Current)).Append(sep);
-                    builder.TrimEndIfMatch(sep);
+                    builderSH.TrimEndIfMatch(sep);
                     break;
             }
             return builder.ToString();

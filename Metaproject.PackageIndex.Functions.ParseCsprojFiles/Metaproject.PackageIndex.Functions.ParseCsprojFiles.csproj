@@ -15,9 +15,9 @@
     <PackageReference Include="CDorst.Metaproject.PackageIndex.Structures.PackageProject" Version="2.0.0" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;Metaproject.PackageIndex.Functions.ParseCsprojFiles;Metaproject.PackageIndex.Functions.ParseCsprojFiles.csproj</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;Metaproject.PackageIndex.Functions.ParseCsprojFiles;Metaproject.PackageIndex.Functions.ParseCsprojFiles.csproj</DefineConstants>
   </PropertyGroup>
 </Project>

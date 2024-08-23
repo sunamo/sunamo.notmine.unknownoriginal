@@ -1,13 +1,5 @@
-// Copyright (c) Jeff Kluge. All rights reserved.
-//
-// Licensed under the MIT license.
-
 namespace SlnGen.Common
-{
-    /// <summary>
-    /// Represents the hierarchy of projects in a Visual Studio solution.
-    /// </summary>
-    /// <remarks>This assumes all projects are on the same drive.</remarks>
+
     public sealed class SlnHierarchy
     {
 static Type type = typeof(SlnHierarchy);
@@ -48,7 +40,7 @@ static Type type = typeof(SlnHierarchy);
             string commonPath = string.Empty;
             List<string> separatedPath = paths
                 .First(str => str.Length == paths.Max(st2 => st2.Length))
-                .Split(new[] { Path.DirectorySeparatorChar }, StringSplitOptions.RemoveEmptyEntries)
+                SH.Split(new[] { Path.DirectorySeparatorChar }, StringSplitOptions.RemoveEmptyEntries)
                 .ToList();
             string nextPath = null;
             foreach (string pathSegment in separatedPath.AsEnumerable())

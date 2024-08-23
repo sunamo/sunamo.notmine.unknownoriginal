@@ -1,8 +1,5 @@
-#if NET45
-
-#endif
-
 namespace FluentFTP.Helpers.Parsers {
+
 	public static class FtpNonStopParser {
 		/// <summary>
 		/// Checks if the given listing is a valid NonStop file listing
@@ -30,7 +27,7 @@ namespace FluentFTP.Helpers.Parsers {
 				return null;
 			}
 
-			var values = record.SplitString();
+			var values = recordSH.SplitString();
 
 			if (values.Length < MinFieldCount) {
 				return null;

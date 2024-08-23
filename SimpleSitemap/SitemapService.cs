@@ -1,5 +1,5 @@
 namespace SimpleSiteMap
-{
+
     public class SitemapService
     {
         private const string SitemapsNamespace = "http://www.sitemaps.org/schemas/sitemap/0.9";

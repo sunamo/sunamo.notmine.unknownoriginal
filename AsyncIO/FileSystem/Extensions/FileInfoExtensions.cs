@@ -5,13 +5,9 @@ using System.Security;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-#pragma warning disable 1573
 
 namespace AsyncIO.FileSystem.Extensions
-{
-    /// <summary>
-    /// Provides async extension method for <see cref="FileInfo"/>.
-    /// </summary>
+
     public static class FileInfoExtensions
     {
         #region AppendAllLinesAsync

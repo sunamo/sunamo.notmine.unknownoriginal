@@ -1,5 +1,3 @@
-// Copyright 2005-2015 Giacomo Stelluti Scala & Contributors. All rights reserved. See License.md in the project root for license information.
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +7,7 @@ using RailwaySharp.ErrorHandling;
 using System.Text.RegularExpressions;
 
 namespace CommandLine.Core
-{
+
     static class Tokenizer
     {
         public static Result<IEnumerable<Token>, Error> Tokenize(
@@ -69,7 +67,7 @@ namespace CommandLine.Core
 
             var exploded = tokens.Select((t, i) =>
                         replaces.FirstOrDefault(x => x.Item1 == i).ToMaybe()
-                            .MapValueOrDefault(r => t.Text.Split(r.Item2).Select(Token.Value),
+                            .MapValueOrDefault(r => t.TextSH.Split(r.Item2).Select(Token.Value),
                                 Enumerable.Empty<Token>().Concat(new[] { t })));
 
             var flattened = exploded.SelectMany(x => x);

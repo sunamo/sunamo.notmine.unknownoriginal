@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public sealed class DomainFunction : DocumentFunction
     {
         readonly string _subdomain;

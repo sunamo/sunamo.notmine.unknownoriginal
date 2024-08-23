@@ -2,7 +2,8 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Authors>Ilya Meyta</Authors>
-    <Company></Company>
+    <Company>
+    </Company>
     <Description>API for free text translation using Google translate</Description>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/Grizley56/GoogleTranslateFreeApi</PackageProjectUrl>
@@ -18,16 +19,19 @@
     <DocumentationFile>GoogleTranslateFreeApi\bin\Release\GoogleTranslateFreeApi.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Languages.json"></None>
+    <None Remove="Languages.json">
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\LICENSE">
       <Pack>True</Pack>
-      <PackagePath></PackagePath>
+      <PackagePath>
+      </PackagePath>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1"></PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1">
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Languages.json">
@@ -38,9 +42,9 @@
     <PackageReference Include="SunamoExceptions" Version="*" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;GoogleTranslateFreeApi;GoogleTranslateFreeApi.csproj</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;GoogleTranslateFreeApi;GoogleTranslateFreeApi.csproj</DefineConstants>
   </PropertyGroup>
 </Project>

@@ -1,9 +1,5 @@
 namespace FluentFTP.Servers.Handlers
-{
 
-    /// <summary>
-    /// Server-specific handling for VsFTPd FTP servers
-    /// </summary>
     public class VsFtpdServer : FtpBaseServer
     {
 

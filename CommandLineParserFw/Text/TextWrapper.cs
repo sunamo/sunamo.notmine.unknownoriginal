@@ -5,8 +5,7 @@ using System.Text;
 using CommandLine.Infrastructure;
 
 namespace CommandLine.Text
-{
-    /// <summary>
+
     /// A utility class to word-wrap and indent blocks of text
     /// </summary>
     public class TextWrapper
@@ -20,7 +19,7 @@ namespace CommandLine.Text
             //_runtime_ and may not match the line-break style that was compiled in
             lines = input
                 .Replace("\r","")
-                .Split(new[] {'\n'}, StringSplitOptions.None);
+                SH.Split(new[] {'\n'}, StringSplitOptions.None);
         }
 
         /// <summary>
@@ -106,7 +105,7 @@ namespace CommandLine.Text
                     new List<StringBuilder>(),
                     (lineList, word) => AddWordToLastLineOrCreateNewLineIfNecessary(lineList, word, columnWidth)
                 )
-                .Select(builder => currentIndentLevel.Spaces()+builder.ToString().TrimEnd())
+                .Select(builder => currentIndentLevel.Spaces()+builder.ToString()SH.TrimEnd())
                 .ToArray();
         }
 

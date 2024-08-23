@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public sealed class KeyframeSelector : StylesheetNode
     {
         private readonly List<Percent> _stops;

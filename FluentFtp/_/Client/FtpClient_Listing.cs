@@ -1,5 +1,5 @@
 namespace FluentFTP
-{
+
     public partial class FtpClient : IDisposable
     {
         #region Get File Info
@@ -593,7 +593,7 @@ namespace FluentFTP
 
                         foreach (var line in reply.InfoMessages.Split('\n'))
                         {
-                            if (!Strings.IsNullOrWhiteSpace(line))
+                            if (!StringsSH.IsNullOrWhiteSpace(line))
                             {
                                 rawlisting.Add(line);
                                 LogLine(FtpTraceLevel.Verbose, "Listing:  " + line);
@@ -617,7 +617,7 @@ namespace FluentFTP
                                 // increases performance of GetListing by reading multiple lines of the file listing at once
                                 foreach (var line in stream.ReadAllLines(Encoding, BulkListingLength))
                                 {
-                                    if (!Strings.IsNullOrWhiteSpace(line))
+                                    if (!StringsSH.IsNullOrWhiteSpace(line))
                                     {
                                         rawlisting.Add(line);
                                         LogLine(FtpTraceLevel.Verbose, "Listing:  " + line);
@@ -1068,7 +1068,7 @@ namespace FluentFTP
 
                         foreach (var line in reply.InfoMessages.Split('\n'))
                         {
-                            if (!Strings.IsNullOrWhiteSpace(line))
+                            if (!StringsSH.IsNullOrWhiteSpace(line))
                             {
                                 rawlisting.Add(line);
                                 LogLine(FtpTraceLevel.Verbose, "Listing:  " + line);
@@ -1093,7 +1093,7 @@ namespace FluentFTP
                                 // increases performance of GetListing by reading multiple lines of the file listing at once
                                 foreach (var line in await stream.ReadAllLinesAsync(Encoding, BulkListingLength, token))
                                 {
-                                    if (!Strings.IsNullOrWhiteSpace(line))
+                                    if (!StringsSH.IsNullOrWhiteSpace(line))
                                     {
                                         rawlisting.Add(line);
                                         LogLine(FtpTraceLevel.Verbose, "Listing:  " + line);

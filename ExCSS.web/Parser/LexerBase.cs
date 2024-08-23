@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public abstract class LexerBase : IDisposable
     {
         private readonly Stack<ushort> _columns;

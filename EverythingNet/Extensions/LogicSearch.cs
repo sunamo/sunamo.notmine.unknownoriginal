@@ -1,5 +1,5 @@
 namespace EverythingNet.Extensions
-{
+
   public static class LogicSearch
   {
     public static IEverything Is(this IEverything everything, string value)

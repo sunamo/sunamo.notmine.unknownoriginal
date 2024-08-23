@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public static class Pool
     {
         private static readonly Stack<StringBuilder> Builder = new Stack<StringBuilder>();

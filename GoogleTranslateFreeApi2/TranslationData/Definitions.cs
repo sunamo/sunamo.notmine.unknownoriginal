@@ -1,6 +1,5 @@
 namespace GoogleTranslateFreeApi.TranslationData
-{
-	[DataContract]
+
 	public sealed class Definitions : TranslationInfoParser
 	{
 		[DataContract]

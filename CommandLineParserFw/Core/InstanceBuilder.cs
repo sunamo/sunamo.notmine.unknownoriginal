@@ -1,5 +1,3 @@
-// Copyright 2005-2015 Giacomo Stelluti Scala & Contributors. All rights reserved. See License.md in the project root for license information.
-
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -10,7 +8,7 @@ using RailwaySharp.ErrorHandling;
 using System.Reflection;
 
 namespace CommandLine.Core
-{
+
     static class InstanceBuilder
     {
         public static ParserResult<T> Build<T>(

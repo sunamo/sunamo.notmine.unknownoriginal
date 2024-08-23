@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public static class StringExtensions
     {
         public static bool Has(this string value, char chr, int index = 0)

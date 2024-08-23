@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public sealed class SelectorConstructor
     {
         private readonly Stack<Combinator> _combinators;

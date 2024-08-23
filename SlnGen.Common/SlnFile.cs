@@ -1,10 +1,5 @@
-// Copyright (c) Jeff Kluge. All rights reserved.
-//
-// Licensed under the MIT license.
-
-
 namespace SlnGen.Common
-{
+
     public sealed class SlnFile
     {
         /// <summary>

@@ -1,10 +1,6 @@
-// Copyright 2005-2015 Giacomo Stelluti Scala & Contributors. All rights reserved. See License.md in the project root for license information.
-
 using CommandLine.Core;
 using CommandLine.Infrastructure;
-
 using CSharpx;
-
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -14,13 +10,6 @@ using System.Reflection;
 using System.Text;
 
 namespace CommandLine.Text
-{
-    /// <summary>
-    /// Provides means to format an help screen.
-    /// You can assign it in place of a <see cref="System.String"/> instance.
-    /// </summary>
-
-
 
     public struct ComparableOption
     {
@@ -534,7 +523,7 @@ namespace CommandLine.Text
         /// <returns>Updated <see cref="CommandLine.Text.HelpText"/> instance.</returns>
         public HelpText AddPreOptionsText(string text)
         {
-            var lines = text.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
+            var lines = textSH.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
             lines.ForEach(line => AddPreOptionsLine(line));
             return this;
         }
@@ -546,7 +535,7 @@ namespace CommandLine.Text
         /// <returns>Updated <see cref="CommandLine.Text.HelpText"/> instance.</returns>
         public HelpText AddPostOptionsText(string text)
         {
-            var lines = text.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
+            var lines = textSH.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
             lines.ForEach(line => AddPostOptionsLine(line));
             return this;
         }
@@ -675,7 +664,7 @@ namespace CommandLine.Text
             if (mutuallyErrs.Length > 0)
             {
                 var lines = mutuallyErrs
-                    .Split(new[] { Environment.NewLine }, StringSplitOptions.None);
+                    SH.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
                 foreach (var line in lines)
                     yield return line;
             }
@@ -808,7 +797,7 @@ namespace CommandLine.Text
                 throw new ArgumentOutOfRangeException(nameof(value));
             }
 
-            value = value.TrimEnd();
+            value = valueSH.TrimEnd();
 
             builder.AppendWhen(builder.Length > 0, Environment.NewLine);
             builder.Append(TextWrapper.WrapAndIndentText(value, 0, maximumLength));
@@ -963,7 +952,7 @@ namespace CommandLine.Text
                     it => it.Append(AddValueName(maxLength, (ValueSpecification)specification)));
 
             optionsHelp
-                .Append(name.Length < maxLength ? name.ToString().PadRight(maxLength) : name.ToString())
+                .Append(name.Length < maxLength ? name.ToString()SH.PadRight(maxLength) : name.ToString())
                 .Append(OptionToHelpTextSeparatorWidth.Spaces());
 
             var optionHelpText = specification.HelpText;

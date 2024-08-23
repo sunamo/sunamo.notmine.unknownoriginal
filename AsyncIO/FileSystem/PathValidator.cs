@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 
 namespace AsyncIO.FileSystem
-{
+
     public static class PathValidator
     {
         /// <summary>

@@ -7,10 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 
 namespace AsyncIO.FileSystem
-{
-    /// <summary>
-    /// Provides static methods for the asynchronous creation, copying, deletion, moving, writing and reading of a single file.
-    /// </summary>
+
     public static class AsyncFile
     {
         #region AppendAllLinesAsync

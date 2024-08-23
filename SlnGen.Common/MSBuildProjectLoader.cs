@@ -1,9 +1,5 @@
-// Copyright (c) Jeff Kluge. All rights reserved.
-//
-// Licensed under the MIT license.
 namespace SlnGen.Common
-{
-    /// <summary>
+
     /// A class for loading MSBuild projects and their project references.
     /// </summary>
 

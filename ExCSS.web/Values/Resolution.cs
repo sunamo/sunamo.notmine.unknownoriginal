@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public struct Resolution : IEquatable<Resolution>, IComparable<Resolution>, IFormattable
     {
         public Resolution(float value, Unit unit)

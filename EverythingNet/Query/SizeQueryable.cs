@@ -1,10 +1,4 @@
 namespace EverythingNet.Query
-{
-  using System;
-  using System.Collections.Generic;
-
-  using EverythingNet.Core;
-  using EverythingNet.Interfaces;
 
   public enum SizeUnit
   {

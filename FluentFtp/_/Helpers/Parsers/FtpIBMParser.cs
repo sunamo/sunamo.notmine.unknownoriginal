@@ -1,8 +1,5 @@
-#if NET45
-
-#endif
-
 namespace FluentFTP.Helpers.Parsers {
+
 	public static class FtpIBMParser {
 		private static int formatIndex = 0;
 
@@ -13,7 +10,7 @@ namespace FluentFTP.Helpers.Parsers {
 			var count = Math.Min(listing.Length, 10);
 
 			for (var i = 0; i < count; i++) {
-				if (listing[i].ContainsAny(ValidListFormats, 0)) {
+				if (listing[i]SH.ContainsAny(ValidListFormats, 0)) {
 					return true;
 				}
 			}
@@ -29,7 +26,7 @@ namespace FluentFTP.Helpers.Parsers {
 		/// <param name="record">A line from the listing</param>
 		/// <returns>FtpListItem if the item is able to be parsed</returns>
 		public static FtpListItem Parse(FtpClient client, string record) {
-			var values = record.SplitString();
+			var values = recordSH.SplitString();
 
 			// skip blank lines
 			if (values.Length <= 0) {

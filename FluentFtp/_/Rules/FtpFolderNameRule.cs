@@ -1,8 +1,5 @@
 namespace FluentFTP.Rules {
 
-	/// <summary>
-	/// Only accept folders that have the given name, or exclude folders of a given name.
-	/// </summary>
 	public class FtpFolderNameRule : FtpRule {
 
 		public static List<string> CommonBlacklistedFolders = new List<string> {

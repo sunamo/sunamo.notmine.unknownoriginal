@@ -1,9 +1,5 @@
 namespace FluentFTP.Servers.Handlers
-{
 
-    /// <summary>
-    /// Server-specific handling for PureFTPd FTP servers
-    /// </summary>
     public class PureFtpdServer : FtpBaseServer
     {
 

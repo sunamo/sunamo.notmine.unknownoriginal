@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public static class Colors
     {
         public static IEnumerable<string> Names => NamedColors.Keys;

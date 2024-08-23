@@ -1,5 +1,5 @@
 namespace csGeoTools
-{
+
     public abstract class Bearing
     {
         public static Bearing Degrees(Double degrees)

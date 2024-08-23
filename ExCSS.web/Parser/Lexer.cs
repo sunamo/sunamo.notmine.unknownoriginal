@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public sealed class Lexer : LexerBase
     {
         public event EventHandler<TokenizerError> Error;

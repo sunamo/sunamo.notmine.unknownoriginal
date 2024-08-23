@@ -7,7 +7,8 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>MimeTypes.cs.pp</LastGenOutput>
     </None>
-    <None Update="MimeTypeFunctions.ttinclude"></None>
+    <None Update="MimeTypeFunctions.ttinclude">
+    </None>
     <None Update="MimeTypes.NullableAttributes.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>MimeTypes.NullableAttributes.cs.pp</LastGenOutput>
@@ -24,9 +25,9 @@
     </None>
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;MimeTypes;MimeTypes.csproj</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;MimeTypes;MimeTypes.csproj</DefineConstants>
   </PropertyGroup>
 </Project>

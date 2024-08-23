@@ -1,9 +1,5 @@
 namespace FluentFTP.Servers.Handlers
-{
 
-    /// <summary>
-    /// Server-specific handling for SolarisFTP servers
-    /// </summary>
     public class SolarisFtpServer : FtpBaseServer
     {
 

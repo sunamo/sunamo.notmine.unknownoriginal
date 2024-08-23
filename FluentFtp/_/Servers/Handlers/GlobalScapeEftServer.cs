@@ -1,9 +1,5 @@
 namespace FluentFTP.Servers.Handlers
-{
 
-    /// <summary>
-    /// Server-specific handling for GlobalScapeEFT FTP servers
-    /// </summary>
     public class GlobalScapeEftServer : FtpBaseServer
     {
 

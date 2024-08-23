@@ -1,5 +1,5 @@
 namespace FlvExtract
-{
+
     public struct FractionUInt32
     {
         public uint D;

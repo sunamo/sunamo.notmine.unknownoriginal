@@ -1,6 +1,5 @@
 namespace GoogleTranslateFreeApi.TranslationData
-{
-	[DataContract]
+
 	public sealed class Synonyms: TranslationInfoParser
 	{
 		[DataMember] public string[] Noun { get; set; }
@@ -26,7 +25,7 @@ namespace GoogleTranslateFreeApi.TranslationData
 			info += FormatOutput(Preposition, nameof(Preposition));
 			info += FormatOutput(Exclamation, nameof(Exclamation));
 
-			return info.TrimEnd();
+			return infoSH.TrimEnd();
 		}
 
 		private string FormatOutput(IEnumerable<string> partOfSpeechData, string partOfSpeechName)

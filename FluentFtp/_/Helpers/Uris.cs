@@ -1,7 +1,5 @@
 namespace FluentFTP.Helpers {
-	/// <summary>
-	/// Extension methods related to FTP tasks
-	/// </summary>
+
 	public static class Uris {
 		/// <summary>
 		/// Ensures that the URI points to a server, and not a directory or invalid path.

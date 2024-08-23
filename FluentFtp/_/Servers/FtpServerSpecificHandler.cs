@@ -1,12 +1,5 @@
 namespace FluentFTP.Servers
-{
 
-    /// <summary>
-    /// All servers with server-specific handling and support are listed here.
-    /// Its possible you can connect to other FTP servers too.
-    /// 
-    /// To add support for another standard FTP server:
-    ///		1) Modify the FtpServer enum
     ///		2) Add a new class extending FtpBaseServer
     ///		3) Create a new instance of your class in AllServers (below)
     ///		
@@ -358,18 +351,18 @@ namespace FluentFTP.Servers
                         {
                             switch (type.ToUpper().Trim())
                             {
-                                case "SHA-1":
-                                case "SHA-1*":
+                                case "A-1":
+                                case "A-1*":
                                     m_hashAlgorithms |= FtpHashAlgorithm.SHA1;
                                     break;
 
-                                case "SHA-256":
-                                case "SHA-256*":
+                                case "A-256":
+                                case "A-256*":
                                     m_hashAlgorithms |= FtpHashAlgorithm.SHA256;
                                     break;
 
-                                case "SHA-512":
-                                case "SHA-512*":
+                                case "A-512":
+                                case "A-512*":
                                     m_hashAlgorithms |= FtpHashAlgorithm.SHA512;
                                     break;
 

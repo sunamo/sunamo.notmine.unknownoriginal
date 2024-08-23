@@ -1,5 +1,5 @@
 namespace GoogleTranslateFreeApi
-{
+
 	static class StringExtension
 	{
 static Type type = typeof(StringExtension);

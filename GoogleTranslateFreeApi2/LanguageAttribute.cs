@@ -1,6 +1,5 @@
 namespace GoogleTranslateFreeApi
-{
-	[AttributeUsage(AttributeTargets.Property, AllowMultiple = false)]
+
 	public class LanguageAttribute: Attribute
 	{
 static Type type = typeof(LanguageAttribute);

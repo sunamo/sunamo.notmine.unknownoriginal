@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public abstract class ChildSelector : StylesheetNode, ISelector
     {
         private readonly string _name;

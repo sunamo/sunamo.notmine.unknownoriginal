@@ -1,14 +1,5 @@
-#if !CORE
-#endif
-#if (CORE || NETFX)
-
-#endif
-#if (CORE || NET45)
-
-#endif
-
 namespace FluentFTP
-{
+
     public partial class FtpClient : IDisposable
     {
         #region Upload Multiple Files

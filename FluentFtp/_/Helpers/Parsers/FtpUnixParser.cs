@@ -1,8 +1,5 @@
-#if NET45
-
-#endif
-
 namespace FluentFTP.Helpers.Parsers {
+
 	public static class FtpUnixParser {
 
 		/// <summary>
@@ -20,7 +17,7 @@ namespace FluentFTP.Helpers.Parsers {
 					continue;
 				}
 
-				var values = record.SplitString();
+				var values = recordSH.SplitString();
 				if (values.Length < MinFieldCount) {
 					continue;
 				}
@@ -65,7 +62,7 @@ namespace FluentFTP.Helpers.Parsers {
 				return null;
 			}
 
-			var values = record.SplitString();
+			var values = recordSH.SplitString();
 
 			if (values.Length < MinFieldCount) {
 				var msg = new StringBuilder("Unexpected number of fields in listing '");
@@ -362,7 +359,7 @@ namespace FluentFTP.Helpers.Parsers {
 				return null;
 			}
 
-			var values = record.SplitString();
+			var values = recordSH.SplitString();
 
 			if (values.Length < MinFieldCountAlt) {
 				var listing = new StringBuilder("Unexpected number of fields in listing '");

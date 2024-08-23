@@ -1,5 +1,5 @@
 namespace TurnerSoftware.RobotsExclusionTools.Tokenization.TokenParsers
-{
+
 	public class RobotsEntryTokenParser : IRobotsFileTokenParser
 	{
 		private class SiteAccessParseState

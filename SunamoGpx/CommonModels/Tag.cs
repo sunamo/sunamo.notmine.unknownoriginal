@@ -1,6 +1,5 @@
 namespace csGeoTools.CommonModels
-{
-    [DataContract]
+
     public class Tag : IEquatable<Tag>
     {
         [DataMember]

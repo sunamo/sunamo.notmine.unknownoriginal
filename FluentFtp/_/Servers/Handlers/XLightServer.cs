@@ -1,9 +1,5 @@
 namespace FluentFTP.Servers.Handlers
-{
 
-    /// <summary>
-    /// Server-specific handling for XLight FTP servers
-    /// </summary>
     public class XLightServer : FtpBaseServer
     {
 

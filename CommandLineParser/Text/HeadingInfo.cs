@@ -1,12 +1,5 @@
-// Copyright 2005-2015 Giacomo Stelluti Scala & Contributors. All rights reserved. See License.md in the project root for license information.
-
-
 namespace CommandLine.Text
-{
-    /// <summary>
-    /// Models the heading part of an help text.
-    /// You can assign it where you assign any <see cref="System.String"/> instance.
-    /// </summary>
+
     public class HeadingInfo
     {
         private readonly string programName;

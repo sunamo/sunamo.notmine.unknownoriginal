@@ -1,6 +1,5 @@
 namespace GoogleTranslateFreeApi
-{
-	/// <summary>
+
 	/// Represent a class for translate the text using <see href="http://translate.google.com"/>
 	/// </summary>
 
@@ -39,7 +38,7 @@ namespace GoogleTranslateFreeApi
 		}
 		public string Domain
 		{
-			get { return Address.AbsoluteUri.GetTextBetween("https://", "/translate_a/single"); }
+			get { return Address.AbsoluteUriSH.GetTextBetween("https://", "/translate_a/single"); }
 			set { Address = new Uri($"https://{value}/translate_a/single"); }
 		}
 		/// <summary>

@@ -1,10 +1,5 @@
-#if (CORE || NETFX)
-#endif
-#if (CORE || NET45)
-#endif
-
 namespace FluentFTP
-{
+
     public partial class FtpClient : IDisposable
     {
 
@@ -223,7 +218,7 @@ namespace FluentFTP
             {
 
                 // calculate the local path
-                var relativePath = localFile.RemovePrefix(localFolder).RemovePrefix("\\").RemovePrefix("/").EnsurePostfix(Path.DirectorySeparatorChar.ToString());
+                var relativePath = localFileSH.RemovePrefix(localFolder)SH.RemovePrefix("\\")SH.RemovePrefix("/").EnsurePostfix(Path.DirectorySeparatorChar.ToString());
                 var remoteFile = remoteFolder.EnsurePostfix("/") + relativePath.Replace('\\', '/');
 
                 // create the result object

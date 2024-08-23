@@ -1,8 +1,5 @@
 namespace TurnerSoftware.SitemapTools.Parser
-{
-	/// <summary>
-	/// Based on the Sitemap specification described here: http://www.sitemaps.org/protocol.html
-	/// </summary>
+
 	public class XmlSitemapParser : ISitemapParser
 	{
 		public SitemapFile ParseSitemap(TextReader reader)

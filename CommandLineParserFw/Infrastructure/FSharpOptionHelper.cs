@@ -1,11 +1,9 @@
-// Copyright 2005-2015 Giacomo Stelluti Scala & Contributors. All rights reserved. See License.md in the project root for license information.
-
 using System;
 using CommandLine.Core;
 using Microsoft.FSharp.Core;
 
 namespace CommandLine.Infrastructure
-{
+
     static class FSharpOptionHelper
     {
         public static Type GetUnderlyingType(Type type)

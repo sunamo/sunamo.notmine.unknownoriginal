@@ -1,8 +1,5 @@
-#if NET45
-
-#endif
-
 namespace FluentFTP.Helpers.Parsers {
+
 	public static class FtpWindowsParser {
 		
 		/// <summary>
@@ -21,7 +18,7 @@ namespace FluentFTP.Helpers.Parsers {
 					continue;
 				}
 
-				var values = record.SplitString();
+				var values = recordSH.SplitString();
 				if (values.Length < MinFieldCount) {
 					continue;
 				}
@@ -55,7 +52,7 @@ namespace FluentFTP.Helpers.Parsers {
 		/// <param name="record">A line from the listing</param>
 		/// <returns>FtpListItem if the item is able to be parsed</returns>
 		public static FtpListItem Parse(FtpClient client, string record) {
-			var values = record.SplitString();
+			var values = recordSH.SplitString();
 
 			if (values.Length < MinFieldCount) {
 				return null;

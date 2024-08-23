@@ -1,5 +1,5 @@
 namespace ExCSS
-{
+
     public sealed class PseudoElementSelectorFactory
     {
         private static readonly Lazy<PseudoElementSelectorFactory> Lazy =
@@ -32,8 +32,8 @@ namespace ExCSS
                     SimpleSelector.PseudoElement(  PseudoElementNames.Selection)
                 },
                 {
-                    PseudoElementNames.FirstLine,
-                    SimpleSelector.PseudoElement(PseudoElementNames.FirstLine)
+                    PseudoElementNamesSH.FirstLine,
+                    SimpleSelector.PseudoElement(PseudoElementNamesSH.FirstLine)
                 },
                 {
                     PseudoElementNames.FirstLetter,

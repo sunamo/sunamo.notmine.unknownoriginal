@@ -1,9 +1,5 @@
 namespace FluentFTP.Servers.Handlers
-{
 
-    /// <summary>
-    /// Server-specific handling for WindowsCE FTP servers
-    /// </summary>
     public class WindowsCeServer : FtpBaseServer
     {
 
