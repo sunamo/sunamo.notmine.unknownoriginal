@@ -9,6 +9,7 @@
     <Authors>James Turner</Authors>
     <SignAssembly>false</SignAssembly>
     <DelaySign>false</DelaySign>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>$(DefineConstants);ASYNC;TurnerSoftware.RobotsExclusionTools;TurnerSoftware.RobotsExclusionTools.csproj</DefineConstants>

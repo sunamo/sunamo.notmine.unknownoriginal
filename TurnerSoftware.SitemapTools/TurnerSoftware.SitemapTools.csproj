@@ -5,6 +5,7 @@
     <RootNamespace>TurnerSoftware.SitemapTools</RootNamespace>
     <AssemblyName>TurnerSoftware.SitemapTools</AssemblyName>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="SunamoExceptions" Version="*" />

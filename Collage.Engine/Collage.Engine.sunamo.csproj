@@ -5,6 +5,7 @@
     <RootNamespace>Collage.Engine</RootNamespace>
     <AssemblyName>Collage.Engine</AssemblyName>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DefineConstants>DEBUG2;DEBUG;TRACE;ASYNC;Collage.Engine.sunamo;Collage.Engine.sunamo.csproj</DefineConstants>

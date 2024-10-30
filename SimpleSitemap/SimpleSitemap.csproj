@@ -20,6 +20,7 @@ Examples of this could be a list of your users, or products, or questions.</Desc
     <Version>0.0.0</Version>
     <PackageLicenseUrl>https://github.com/PureKrome/SimpleSitemap/blob/master/LICENSE</PackageLicenseUrl>
     <SignAssembly>false</SignAssembly>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
   </PropertyGroup>

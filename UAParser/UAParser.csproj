@@ -22,6 +22,7 @@
     <Company>
     </Company>
     <SignAssembly>true</SignAssembly>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetFramework)'=='netstandard1.0'">
     <DefineConstants>INTROSPECTION_EXTENSIONS;REGEX_MATCHTIMEOUT;ASYNC;UAParser;UAParser.csproj</DefineConstants>
