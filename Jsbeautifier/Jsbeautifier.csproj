@@ -9,13 +9,16 @@
     <PackageProjectUrl>https://github.com/denis-ivanov/Jsbeautifier</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/denis-ivanov/Jsbeautifier/blob/master/LICENSE</PackageLicenseUrl>
     <PackageTags>JavaScript; Beautifier</PackageTags>
-    <TargetFrameworks>net8.0</TargetFrameworks>
+    <TargetFrameworks>net9.0</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC;Jsbeautifier;Jsbeautifier.csproj</DefineConstants>
+    <DefineConstants>$(DefineConstants);CA1822;ASYNC</DefineConstants>
+    <NoWarn>CA1822;CS1573;CS1572;CS1570;CA1866;CA1865;CA1867;CS1998;CA1847;IDE0066</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC;Jsbeautifier;Jsbeautifier.csproj</DefineConstants>
+    <DefineConstants>$(DefineConstants);CA1822;ASYNC</DefineConstants>
+    <NoWarn>CA1822;CS1573;CS1572;CS1570;CA1866;CA1865;CA1867;CS1998;CA1847;IDE0066</NoWarn>
   </PropertyGroup>
 </Project>
