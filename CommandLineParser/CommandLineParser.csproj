@@ -11,6 +11,7 @@
     </Compile>
     <Compile Remove="ParserResult_my.cs">
     </Compile>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="*" Pack="True" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0">

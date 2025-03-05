@@ -34,6 +34,7 @@
   <ItemGroup>
     <Folder Include="Extensions\">
     </Folder>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="*" Pack="True" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Extensions\DateSearch.cs">

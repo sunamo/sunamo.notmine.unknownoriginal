@@ -16,6 +16,7 @@
     <PackageReference Include="SunamoExceptions" Version="*" />
     <PackageReference Include="SunamoShared" Version="*" />
     <ProjectReference Include="..\Metaproject.PackageIndex.Structures.PackageProject\Metaproject.PackageIndex.Structures.PackageProject.csproj" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="*" Pack="True" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>$(DefineConstants);CA1822;ASYNC</DefineConstants>

@@ -9,6 +9,7 @@
   <ItemGroup>
     <EmbeddedResource Include="_NotMine\MSBuild\Project.txt">
     </EmbeddedResource>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="*" Pack="True" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Solution.txt">

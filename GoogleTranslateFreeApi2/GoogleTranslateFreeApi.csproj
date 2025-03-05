@@ -17,6 +17,7 @@
   <ItemGroup>
     <None Remove="Languages.json">
     </None>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="*" Pack="True" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\LICENSE">
