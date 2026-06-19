@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SunamoExceptions", "..\sunamoWithoutDep\SunamoExceptions\SunamoExceptions.csproj", "{F3F6F3CA-A5F5-4994-9666-3FED63614B8F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SunamoGpx", "SunamoGpx\SunamoGpx.csproj", "{6A4711EA-F8B6-4847-B7EE-B13B1364F919}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SunamoGeoTools", "SunamoGeoTools\SunamoGeoTools.csproj", "{6A4711EA-F8B6-4847-B7EE-B13B1364F919}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UAParser", "UAParser\UAParser.csproj", "{61543FCA-6E6C-44DB-87F1-0546658E343C}"
 EndProject
