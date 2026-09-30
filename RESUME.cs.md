@@ -1,5 +1,5 @@
 ---
-schema_version: 4
+schema_version: 5
 type: library
 file_count: 18
 delete_recommendation_percent: 60
@@ -7,6 +7,9 @@ generated_date: 2026-09-30
 generated_time: 14:45:00
 github_origin: no
 github_source_url: 
+first_commit_date: 2023-11-15
+last_commit_date: 2026-09-29
+commit_count: 10
 ---
 
 ## Description
@@ -24,3 +27,11 @@ Doporučení ke smazání: **60 %** — malý cizí kód s neověřitelným pův
 - Repo obsahuje jen 3 drobné projekty a poznámka `_.txt` hodnotí kvalitu kódu jako špatnou.
 - Kód není vlastní a jeho zdroj nelze dohledat, ostatní projekty z původního `notmine` už byly odstraněny.
 - Poslední commity jsou jen úklid a přidání RESUME.
+
+## Historie commitů
+
+- První commit: 2023-11-15
+- Poslední commit: 2026-09-29
+- Celkem commitů: 10
+
+- Počítá se bez commitů, které jen generovaly RESUME.cs.md nebo README.md.
