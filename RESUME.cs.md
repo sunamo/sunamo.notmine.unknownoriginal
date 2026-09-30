@@ -10,3 +10,7 @@ generated_time: 14:06:19
 ## Description
 
 Helper for parsing project information from a .csproj file.
+
+## Původ zdrojáků
+
+Staženo z GitHubu: **ne** — podle remote a metadat repa nejde o zdrojáky stažené z GitHubu.
