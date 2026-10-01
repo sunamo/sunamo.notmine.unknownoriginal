@@ -1,5 +1,9 @@
 # sunamo.notmine.unknownoriginal
 
+## Short description
+
+Tři malé knihovny v C# (.NET 9) pro parsování `.csproj` souborů: `CsprojFileParser`, `CsprojFilesParser` a datové typy `PackageCsproj` a `NuGetPackageInfoFactory`. Kód napsal cizí autor `cdorst` (LICENSE odkazuje na jeho GitHub, balíčky mají prefix `CDorst.`). Repo drží jen zdrojáky bez testů a bez dokumentace.
+
 Malá sada tří knihoven v C# (.NET 9) pro čtení informací z `.csproj` souborů.
 Kód pochází od autora `cdorst` (viz `LICENSE` a `Authors`/`PackageId` v csproj), ne od majitele repa.
 
