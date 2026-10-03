@@ -15,6 +15,6 @@ Kód pochází od autora `cdorst` (viz `LICENSE` a `Authors`/`PackageId` v cspro
 
 ## Poznámky
 
-- Řešení: `sunamo.notmine.sln`.
+- Řešení: `sunamo.notmine.slnx`.
 - Projekty se odkazují na balíčky `SunamoExceptions` a `SunamoShared`.
 - `_.txt` obsahuje osobní poznámku o kvalitě původního kódu.
