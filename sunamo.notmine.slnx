@@ -1,0 +1,83 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../sunamoWithoutDep/SunamoExceptions/SunamoExceptions.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="../sunamoWithoutDep/SunamoLang/SunamoLang.csproj">
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="../sunamoWithoutDep/SunamoShared/SunamoShared.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="ExCSS.web/ExCSS.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="FluentFtp/FluentFtp.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="FlvExtract/FlvExtract.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="fmdev.ResX/fmdev.ResX.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="FubuCore/FubuCore.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="FubuCsProjFile/FubuCsprojFile.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="GoogleTranslateFreeApi2/GoogleTranslateFreeApi.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="Metaproject.PackageIndex.Functions.ParseCsprojFile/Metaproject.PackageIndex.Functions.ParseCsprojFile.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="Metaproject.PackageIndex.Functions.ParseCsprojFiles/Metaproject.PackageIndex.Functions.ParseCsprojFiles.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="Metaproject.PackageIndex.Structures.PackageProject/Metaproject.PackageIndex.Structures.PackageProject.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="SimpleSitemap/SimpleSitemap.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="SlnGen.Common/SlnGen.Common.SunamoShared.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="SunamoBitlockerManager/SunamoBitLockerManager.csproj" />
+  <Project Path="SunamoGeoTools/SunamoGeoTools.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="TurnerSoftware.RobotsExclusionTools/TurnerSoftware.RobotsExclusionTools.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="TurnerSoftware.SitemapTools/TurnerSoftware.SitemapTools.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="XliffParser/XliffParser.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+</Solution>
