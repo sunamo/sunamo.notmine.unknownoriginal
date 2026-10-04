@@ -1,6 +1,6 @@
 ---
 schema_version: 11
-type: other
+type: real-app
 category_override: none
 file_count: 763
 file_extensions: cs:752, csproj:11, json:5, noext:3, txt:3, config:2, md:2, nuspec:1, slnx:1, xml:1, xproj:1
