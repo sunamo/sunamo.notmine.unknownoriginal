@@ -1,7 +1,10 @@
 ---
-schema_version: 10
+schema_version: 11
 type: other
+category_override: none
 file_count: 763
+file_extensions: cs:752, csproj:11, json:5, noext:3, txt:3, config:2, md:2, nuspec:1, slnx:1, xml:1, xproj:1
+file_extensions_updated: 2026-10-04
 avg_lines_per_file: 95
 total_lines: 70888
 metrics_lm: 2026-10-04 16:02:36
