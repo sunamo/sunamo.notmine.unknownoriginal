@@ -1,20 +1,9 @@
+---
+schema_version: 1
+---
+
 # sunamo.notmine.unknownoriginal
 
 ## Short description
 
-Tři malé knihovny v C# (.NET 9) pro parsování `.csproj` souborů: `CsprojFileParser`, `CsprojFilesParser` a datové typy `PackageCsproj` a `NuGetPackageInfoFactory`. Kód napsal cizí autor `cdorst` (LICENSE odkazuje na jeho GitHub, balíčky mají prefix `CDorst.`). Repo drží jen zdrojáky bez testů a bez dokumentace.
-
-Malá sada tří knihoven v C# (.NET 9) pro čtení informací z `.csproj` souborů.
-Kód pochází od autora `cdorst` (viz `LICENSE` a `Authors`/`PackageId` v csproj), ne od majitele repa.
-
-## Obsah
-
-- `Metaproject.PackageIndex.Functions.ParseCsprojFile` – `CsprojFileParser`, čte z řádků csproj tagy `Description`, `Version`, `TargetFramework` a reference.
-- `Metaproject.PackageIndex.Functions.ParseCsprojFiles` – `CsprojFilesParser`, zpracuje víc csproj najednou.
-- `Metaproject.PackageIndex.Structures.PackageProject` – datové typy (`PackageCsproj`, `NuGetPackageInfoFactory`).
-
-## Poznámky
-
-- Řešení: `sunamo.notmine.slnx`.
-- Projekty se odkazují na balíčky `SunamoExceptions` a `SunamoShared`.
-- `_.txt` obsahuje osobní poznámku o kvalitě původního kódu.
+Sbírka kopií cizích knihoven bez doloženého původu, například CommandLineParser, ExCSS, FluentFtp, FlvExtract, FubuCsProjFile, GoogleTranslateFreeApi, SlnGen.Common a SunamoGeoTools, a tři knihovny Metaproject.PackageIndex.* od autora cdorst pro parsování .csproj. Řešení všech projektů je sunamo.notmine.unknownoriginal.slnx. Slouží jako zdrojáky, které nejsou k dispozici jako balíčky.

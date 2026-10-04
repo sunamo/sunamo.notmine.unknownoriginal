@@ -1,0 +1,22 @@
+﻿global using cl;
+global using CommandLine.Core;
+global using CommandLine.Infrastructure;
+global using CommandLine.Text;
+global using CSharpx;
+global using RailwaySharp.ErrorHandling;
+global using SunamoExceptions;
+global using System.Collections.Generic;
+global using System.Collections;
+global using System.Diagnostics;
+global using System.Globalization;
+global using System.IO;
+global using System.Linq.Expressions;
+global using System.Linq;
+global using System.Reflection;
+global using System.Runtime.CompilerServices;
+global using System.Runtime.InteropServices;
+global using System.Text.RegularExpressions;
+global using System.Text;
+global using System.Threading.Tasks;
+global using System;
+
