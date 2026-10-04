@@ -1,0 +1,13 @@
+<Solution>
+  <Project Path="CommandLineParser/CommandLineParser.csproj" />
+  <Project Path="ExCSS.web/ExCSS.csproj" />
+  <Project Path="FluentFtp/FluentFtp.csproj" />
+  <Project Path="FlvExtract/FlvExtract.csproj" />
+  <Project Path="FubuCsProjFile/FubuCsprojFile.csproj" />
+  <Project Path="GoogleTranslateFreeApi2/GoogleTranslateFreeApi.csproj" />
+  <Project Path="Metaproject.PackageIndex.Functions.ParseCsprojFile/Metaproject.PackageIndex.Functions.ParseCsprojFile.csproj" />
+  <Project Path="Metaproject.PackageIndex.Functions.ParseCsprojFiles/Metaproject.PackageIndex.Functions.ParseCsprojFiles.csproj" />
+  <Project Path="Metaproject.PackageIndex.Structures.PackageProject/Metaproject.PackageIndex.Structures.PackageProject.csproj" />
+  <Project Path="SlnGen.Common/SlnGen.Common.sunamo.csproj" />
+  <Project Path="SunamoGeoTools/SunamoGeoTools.csproj" />
+</Solution>
